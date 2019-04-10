@@ -1,0 +1,52 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+
+/**
+ * @author bharathveluru
+ *
+ */
+public class missingNumberInSequence {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//The problem statement is to findout the missin number in the sequence where each number repeats thrice.
+	//Ex: 1112233	
+		//ArrayList arr = new ArrayList();
+		
+		String str = "11122333";
+		char[] arr = str.toCharArray();
+		
+		System.out.println(arr[5]);
+		System.out.println(arr.length);
+		findMissingNumber(arr);
+		
+		
+	}
+	
+	
+	public static void findMissingNumber(char[] arr){
+		
+		int[] count = null;
+		
+		for(int i=0;i<arr.length-1;i++){
+			System.out.println(arr[i]);
+			
+			if(arr[i]==1){
+				count[1]+=1;
+			}
+			
+			
+		
+			
+		}
+		
+		System.out.println(count[1]);
+		
+		
+		
+		
+	}
+	
+	
+
+}
