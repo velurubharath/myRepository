@@ -1,0 +1,20 @@
+import java.util.ArrayList;
+
+public class missingNumberInSequence2{
+	public static void main(String[] args){
+		int[] arr = new int[10];
+		
+		
+		
+	}
+	
+	void isMissing(int[] arr){
+		for(int i=0;i<arr.length;i++){
+			if(arr[3*i]!=arr[3*(i+1)]){
+			
+				System.out.println(arr[3*i]+ " is missing");
+			}
+			
+		}
+	}
+}

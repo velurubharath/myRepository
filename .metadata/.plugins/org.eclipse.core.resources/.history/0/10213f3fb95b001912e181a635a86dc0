@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+
+public class missingNumberInSequence2 {
+	public static void main(String[] args) {
+		int[] arr = { 1, 1, 1, 2, 2, 3, 3, 3};
+		isMissing(arr);
+		System.out.println("Execution Complete");
+
+	}
+
+	static void isMissing(int[] arr) {
+		for (int i = 0; (i - 1) < arr.length; ) {
+
+			if (arr[i] != arr[i+2]) {
+				System.out.println(i);
+
+				System.out.println(arr[i] + " is missing");
+			}
+			i+=3;
+
+		}
+	}
+}
