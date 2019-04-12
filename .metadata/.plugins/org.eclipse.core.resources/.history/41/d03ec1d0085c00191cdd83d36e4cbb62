@@ -1,0 +1,21 @@
+
+public class NotRepeatedNumber {
+
+	public static void main(String[] args) {
+
+		/*The requirement is to find the msiisng number in the array of integers 
+		 * Each integer is repeated twice. Expect to print the missin number in sequence
+		 */
+
+		int[] arr = {1,1,4,2,2};
+		findMissingNumber(arr);
+		
+	}
+	
+	void findMissingNumber(int[] arr){
+		
+		
+		
+	}
+
+}
