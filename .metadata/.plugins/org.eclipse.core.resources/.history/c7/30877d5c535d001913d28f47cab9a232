@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class StringReverse {
+	
+	/*
+	 * Requirement is If 
+	 */
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		String name = "Bharath";
+		char[] toCharName = name.toCharArray();
+		isReversed(toCharName);
+	}
+	
+	
+
+	static void isReversed(char[] name){
+		
+		char[] result = null;
+		int stringLength = name.length;
+		for(int i=0;i<name.length;i++){
+			
+			result[stringLength-1]=name[i];
+		}
+		
+		String resultString = result.toString();
+		
+	}
+}

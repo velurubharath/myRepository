@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+public class StringReverse {
+
+	/*
+	 * Requirement is If
+	 */
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String str1 = "bharath";
+		String str2 = "htarahb";
+		char[] str1Array = str1.toCharArray();
+		char[] str2Array = str2.toCharArray();
+		isReversed(str1Array,str2Array);
+	}
+
+	@SuppressWarnings("null")
+	static boolean isReversed(char[] str1Array,char[] str2Array) {
+
+		if(str1Array.length==str2Array.length){
+			for(int i=0;i<str1Array.length;i++){
+				if(str1Array[i]==str2Array[str1Array.length-1-i]){
+				System.out.println("Both the strings are Anagrams");
+				System.out.println(str1Array[i]);
+				return true;
+				}else{
+					System.out.println("The input words are not anagrams");
+					return false;
+				}
+			}
+			
+		}else{
+			System.out.println("Two strings are of different length, Hence not an Anagram");
+		}
+	}
+}
