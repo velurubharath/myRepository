@@ -1,0 +1,18 @@
+import java.util.HashMap;
+
+public class NotRepeatedNumberUsingHashMap {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] array = {1,4,1,2,2};
+		isNumberMissing(array);
+		
+	}
+	
+	static void isNumberMissing(int[] array){
+		HashMap<Integer,Integer> hm = new HashMap<Integer,Integer>();
+		hm.put(1,0);
+		
+	}
+
+}
