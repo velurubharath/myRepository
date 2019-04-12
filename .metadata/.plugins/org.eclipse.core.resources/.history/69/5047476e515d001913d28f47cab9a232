@@ -34,7 +34,6 @@ public class NotRepeatedNumberUsingHashMap {
 				hm.put(array[i], 1);
 
 			}
-		}
 
 			Set set = hm.entrySet();
 			Iterator it = set.iterator();
@@ -48,7 +47,7 @@ public class NotRepeatedNumberUsingHashMap {
 				System.out.println("Missing number is found ");
 			}
 
-		
+		}
 
 	}
 }

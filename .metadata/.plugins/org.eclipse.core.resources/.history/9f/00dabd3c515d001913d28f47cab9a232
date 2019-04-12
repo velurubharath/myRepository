@@ -20,6 +20,16 @@ public class NotRepeatedNumberUsingHashMap {
 
 	static void isNumberMissing(int[] array) {
 		HashMap<Integer, Integer> hm = new HashMap<Integer, Integer>();
+//		hm.put(1, 0);
+//		hm.put(2, 0);
+//		hm.put(3, 0);
+//		hm.put(4, 0);
+//		hm.put(5, 0);
+//		hm.put(6, 0);
+//		hm.put(7, 0);
+//		hm.put(8, 0);
+//		hm.put(9, 0);
+//		hm.put(0, 0);
 
 		for (int i = 0; i < array.length; i++) {
 			if (hm.containsKey(array[i])) {
@@ -34,7 +44,6 @@ public class NotRepeatedNumberUsingHashMap {
 				hm.put(array[i], 1);
 
 			}
-		}
 
 			Set set = hm.entrySet();
 			Iterator it = set.iterator();
@@ -48,7 +57,7 @@ public class NotRepeatedNumberUsingHashMap {
 				System.out.println("Missing number is found ");
 			}
 
-		
+		}
 
 	}
 }
