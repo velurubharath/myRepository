@@ -1,0 +1,21 @@
+
+public class StringHasUniqueCharacters {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		/*
+		 * Requirement is to check whether all the characters in a string are unique?
+		 */
+		
+		String name = "Bharath";
+		isUniqueCharacters(name);
+	}
+
+	private static void isUniqueCharacters(String name) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
