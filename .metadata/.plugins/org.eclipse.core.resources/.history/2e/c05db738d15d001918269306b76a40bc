@@ -1,0 +1,24 @@
+package coding.ArrayAndStrings;
+
+public class checkStringIsPermutationToOther {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		/*
+		 * requiremetn is to check two words are permutable to other
+		 */
+
+		String word1 = "sky";
+		String word2 = "yks";
+		boolean result = isPermutable(word1, word2);
+		System.out.println("Result is " + result);
+
+	}
+
+	private static boolean isPermutable(String word1, String word2) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

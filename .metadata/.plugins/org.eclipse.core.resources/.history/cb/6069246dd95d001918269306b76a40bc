@@ -1,0 +1,53 @@
+package coding.ArrayAndStrings;
+
+import java.nio.charset.Charset;
+
+public class checkStringIsPermutationToOther {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		/*
+		 * requiremetn is to check two words are permutable to other
+		 */
+
+		String word1 = "sky";
+		String word2 = "yks";
+		boolean result = isPermutable(word1, word2);
+		System.out.println("Result is " + result);
+
+	}
+
+	private static boolean isPermutable(String word1, String word2) {
+		// TODO Auto-generated method stub
+		if (word1.length() == word2.length()) {
+			int[] array = new int[128];
+			
+			char[] word1Array = word1.toCharArray();
+			char[] word2Array = word2.toCharArray();
+			
+			for(char c:word1Array){
+				array[c]++;
+			}
+			
+			for(char c:word2Array){
+				array[c]--;
+			}
+			
+			
+			if(array[]=0){
+				return true;
+				return false
+			}
+			
+			
+
+		} 
+		else {
+			System.out.println("Both are of different length, So not a permutation");
+			
+		}
+		return false;
+	}
+
+}

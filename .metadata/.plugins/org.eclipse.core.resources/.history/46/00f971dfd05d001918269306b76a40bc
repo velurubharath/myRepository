@@ -1,0 +1,14 @@
+package coding.ArrayAndStrings;
+
+public class checkStringIsPermutationToOther {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*
+		 * requiremetn is to check two words are permutable to other
+		 */
+
+	}
+
+}
