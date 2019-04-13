@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;DataStructures/src/coding.ArrayAndStrings&apos;&#x0D;&#x0A;- Original project: &apos;DataStructures&apos;&#x0D;&#x0A;- Destination element: &apos;DataStructures/src/coding.ArrayAndStrings&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     StringHasUniqueCharacters.java&#x0D;&#x0A;     StringHasUniquesCharactersUsingDataStructures.java" description="Copy compilation units" destination="/src&lt;coding.ArrayAndStrings" element1="/src&lt;{StringHasUniqueCharacters.java" element2="/src&lt;{StringHasUniquesCharactersUsingDataStructures.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1555145764501" units="2" version="1.0"/>
+</session>

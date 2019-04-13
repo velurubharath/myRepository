@@ -1,0 +1,25 @@
+package coding.ArrayAndStrings;
+
+import java.util.Hashtable;
+
+public class StringHasUniquesCharactersUsingDataStructures {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		/*
+		 * Requirement is to check whether all the characters in a string are unique?
+		 * Without using additional data structures
+		 */
+		
+		String name= "Bharath";
+		checkUsingHashTable(name);
+	}
+
+	private static void checkUsingHashTable(String name) {
+		// TODO Auto-generated method stub
+		Hashtable<Character,Integer> characterArray = new Hashtable();
+		
+	}
+
+}
