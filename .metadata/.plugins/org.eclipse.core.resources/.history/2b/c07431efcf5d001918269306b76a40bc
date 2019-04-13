@@ -14,7 +14,7 @@ public class StringHasUniquesCharactersUsingDataStructures {
 		 * unique? Without using additional data structures
 		 */
 
-		String name = "Bharath";
+		String name = "Bhta";
 		System.out.println("Using HashTable " + checkUsingHashTable(name));
 		System.out.println("Using bitVector " + checkUsingBitVector(name));
 		System.out.println("Using Set "+checkUsingSortMethod(name));

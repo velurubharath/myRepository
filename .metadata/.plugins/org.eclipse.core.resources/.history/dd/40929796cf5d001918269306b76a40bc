@@ -1,8 +1,6 @@
 package coding.ArrayAndStrings;
 
-import java.util.HashSet;
 import java.util.Hashtable;
-import java.util.Set;
 
 public class StringHasUniquesCharactersUsingDataStructures {
 
@@ -14,25 +12,11 @@ public class StringHasUniquesCharactersUsingDataStructures {
 		 * unique? Without using additional data structures
 		 */
 
-		String name = "Bharath";
+		String name = "Bhta";
 		System.out.println("Using HashTable " + checkUsingHashTable(name));
 		System.out.println("Using bitVector " + checkUsingBitVector(name));
 		System.out.println("Using Set "+checkUsingSortMethod(name));
 
-	}
-
-	private static boolean checkUsingSortMethod(String name) {
-		// TODO Auto-generated method stub
-		HashSet resultSet = new HashSet();
-		for(int i=0;i<name.length();i++){
-			resultSet.add(name.charAt(i));
-		}
-		
-		if(resultSet.size()==name.length())
-			return true;
-		
-		return false;
-		
 	}
 
 	private static boolean checkUsingBitVector(String name) {

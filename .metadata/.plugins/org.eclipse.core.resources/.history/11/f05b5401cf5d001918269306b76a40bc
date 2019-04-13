@@ -1,8 +1,6 @@
 package coding.ArrayAndStrings;
 
-import java.util.HashSet;
 import java.util.Hashtable;
-import java.util.Set;
 
 public class StringHasUniquesCharactersUsingDataStructures {
 
@@ -15,42 +13,24 @@ public class StringHasUniquesCharactersUsingDataStructures {
 		 */
 
 		String name = "Bharath";
-		System.out.println("Using HashTable " + checkUsingHashTable(name));
-		System.out.println("Using bitVector " + checkUsingBitVector(name));
-		System.out.println("Using Set "+checkUsingSortMethod(name));
-
-	}
-
-	private static boolean checkUsingSortMethod(String name) {
-		// TODO Auto-generated method stub
-		HashSet resultSet = new HashSet();
-		for(int i=0;i<name.length();i++){
-			resultSet.add(name.charAt(i));
-		}
-		
-		if(resultSet.size()==name.length())
-			return true;
-		
-		return false;
+		System.out.println("Using HashTable "+checkUsingHashTable(name));
+		System.out.println("Using bitVector "+checkUsingBitVector(name));
 		
 	}
 
 	private static boolean checkUsingBitVector(String name) {
-
-		int checker = 0;
-
-		for (int i = 0; i < name.length(); i++) {
-			int value = name.charAt(i) - 'a';
-			if ((checker & (1 << value)) > 0)
-				return false;
-			else {
-				checker |= (1 << value);
-			}
-
+		
+		int checker =0;
+		
+		for(int i=0;i<name.length();i++){
+			
+			int value = name.charAt(i)-'a';
+			
+			
 		}
-
-		return true;
-
+		
+		return false;
+		
 	}
 
 	private static boolean checkUsingHashTable(String name) {
@@ -71,4 +51,6 @@ public class StringHasUniquesCharactersUsingDataStructures {
 
 	}
 
+	
+	
 }
