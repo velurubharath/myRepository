@@ -9,7 +9,7 @@ public class checkStringIsPermutationToOther {
 		// TODO Auto-generated method stub
 
 		/*
-		 * Requirement is to check two words are permutation to other
+		 * requiremetn is to check two words are permutable to other
 		 */
 
 		String word1 = "sky";
