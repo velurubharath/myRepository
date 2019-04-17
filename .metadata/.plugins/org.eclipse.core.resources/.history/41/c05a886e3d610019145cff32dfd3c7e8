@@ -1,0 +1,32 @@
+package coding.ArrayAndStrings;
+
+public class PalindromePermutationMoreSimpler {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	String word ="bbccdd";
+	isPermutationOfPalindrome(word);
+	}
+
+	private static boolean isPermutationOfPalindrome(String word) {
+		// TODO Auto-generated method stub
+		
+		int countOdd =0;
+		int[] table = new int[Character.getNumericValue('z')-Character.getNumericValue('a')+1];
+		for(char c: word.toCharArray()){
+			int x = getCharNumber(c);
+			if(x!=-1){
+				table[x]++;
+				if(table[x]%2==1){
+					countOdd++;
+				}else{
+					countOdd--;
+				}
+			}
+		}
+		return countOdd<=1;
+		
+	}
+
+}
