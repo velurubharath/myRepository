@@ -13,16 +13,16 @@ public class URLify {
 		
 		int truelength = 50;
 		
-		replaceSpaces(sentenceArray,truelength,spaces);
+		replaceSpaces(char[] sentenceArray,int truelength, int spaces);
 		
 	}
 
 	private static void replaceSpaces(char[] sentenceArray, int truelength, int spaces) {
 		// TODO Auto-generated method stub
 		
-		int index= truelength+spaces*2;
-		if(truelength<sentenceArray.length) sentenceArray[truelength]='\0';
-		for(int i=truelength-1;i>=0;i--){
+		int index= trulength+spaces*2;
+		if(truelength<str.lenth) str[truelength]='\0';
+		for(int i=trulength-1;i>=0;i--){
 			if(sentenceArray[i]==' '){
 				sentenceArray[index-1]='0';
 				sentenceArray[index-2]='2';
