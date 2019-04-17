@@ -1,0 +1,25 @@
+package coding.ArrayAndStrings;
+
+public class StringCompression {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String str = "aaabbbcccdd";
+		Compressed(str);
+		System.out.println();
+	}
+
+	private static String Compressed(String str) {
+		
+		StringBuilder compressed = new StringBuilder();
+		
+		
+		return compressed.length()>str.length()?compressed:str;
+		
+		
+		
+		
+	}
+
+}

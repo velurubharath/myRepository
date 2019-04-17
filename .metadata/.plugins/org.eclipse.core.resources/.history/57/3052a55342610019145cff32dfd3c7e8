@@ -1,0 +1,18 @@
+package coding.ArrayAndStrings;
+
+public class StringCompression {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String str = "aaabbbcccdd";
+		Compressed(str);
+		System.out.println(Compressed(str));
+	}
+
+	private static void Compressed(String str) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
