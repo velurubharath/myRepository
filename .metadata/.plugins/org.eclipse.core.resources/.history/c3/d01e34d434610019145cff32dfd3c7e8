@@ -1,0 +1,28 @@
+package coding.ArrayAndStrings;
+
+public class URLify {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String sentence = "Bharath is a good boy";
+		char[] sentenceArray = sentence.toCharArray();
+		
+		int spaces = findBlankSpaces(sentenceArray);
+		
+	}
+
+	private static int findBlankSpaces(char[] sentenceArray) {
+		// TODO Auto-generated method stub
+		int count =0;
+		
+		for(int i=0;i<sentenceArray.length;i++){
+			if(sentenceArray[i]==' ')
+				count++;
+		}
+		
+		return count;
+	}
+
+
+}
