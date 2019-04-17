@@ -1,0 +1,28 @@
+package coding.ArrayAndStrings;
+
+public class OneAway {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String s1="bale";
+		String s2 = "pale";
+		oneEditAway(s1,s2);
+		
+	}
+
+	private static boolean oneEditAway(String first, String second) {
+		
+		if(Math.abs(first.length())-second.length()>1)
+			return false;
+		
+		int index1 =0;
+		int index2 =0;
+		
+		
+		return true;
+		// TODO Auto-generated method stub
+		
+	}
+
+}
