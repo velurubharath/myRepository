@@ -3000,3 +3000,9 @@ java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:104)
 	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:73)
 	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.ui 2 2 2019-04-17 23:05:53.429
+!MESSAGE Invalid property category path: Test Category (bundle: org.eclipse.ui.tests, propertyPage: org.eclipse.ui.tests.and)
+
+!ENTRY org.eclipse.ui 2 2 2019-04-17 23:05:53.430
+!MESSAGE Invalid property category path: Test Category (bundle: org.eclipse.ui.tests, propertyPage: org.eclipse.ui.tests.or)
