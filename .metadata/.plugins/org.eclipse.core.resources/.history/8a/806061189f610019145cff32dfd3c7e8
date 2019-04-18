@@ -1,0 +1,18 @@
+package coding.ArrayAndStrings;
+
+public class MatrixRotation {
+
+	
+	public static void main(String[] args){
+		int[][] matrix;
+		rotate(matrix);
+		
+	}
+
+	private static boolean rotate(int[][] matrix) {
+		return true;
+		// TODO Auto-generated method stub
+		
+		
+	}
+}
